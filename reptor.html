@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raptor</title>
+    <link rel="stylesheet" href="raptor.css">
+    <link rel="icon" href="images/logo.jpg">
+    <script src="https://kit.fontawesome.com/7073415ba6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav">
+            <input type="checkbox" id="nav-check">
+            <div class="nav-header">
+              <div class="nav-title">
+                RAPTOR.
+              </div>
+            </div>
+            <div class="nav-btn">
+              <label for="nav-check" id="label_one">
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+              <label for="nav-check" id="label_two">
+                <p class="nav-btn-menu">MENU</p>
+              </label>
+            </div>
+            
+            <ul class="nav-list">
+              <li><a href="#header">Home</a></li>
+              <li><a href="#facts">About</a></li>
+              <li><a href="#domain">Domain</a></li>
+              <li><a href="#vps">Hosting</a></li>
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="#footer">Contact</a></li>
+              <li class="nav-list-btn"><a href="#domain">Get started</a></li>
+            </ul>
+          </nav>
+        <div class="header-content">
+            <div class="header-content-text">
+                <h1>Design. <br> Development. <br> Hosting.</h1>
+                <p>A small river named Duden dlows by their place and supplies it with the necessary regelialia.</p>
+                <button>Get started</button>
+            </div>
+            <div class="header-content-pic">
+                   <img src="images/dashboard_full_3.png" alt="dashboard">
+                   <div class="header-content-pic-overlay">
+                     <img src="images/dashboard_full_2.png" alt="dashboard_overlay">
+                   </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-area">
+        <section class="domain" id="domain">
+            <div class="domain-content">
+                <h5 class="title">Get domain</h5>
+                <h2 class="content-title">Get A Domain Name</h2>
+                <p class="grey-text">With FREE Email, DNS, Theft Protection, and other features</p>
+                <form action="#">
+                    <input class="active-input" type="text" id="text" pattern=".*\.(com|net|me|biz)$"
+                        placeholder="Enter your domain name..." />
+                    <input type="submit" id="button" value="Search Domain" />
+                </form>
+                <p class="domain-text">.com<span>&#36;9.75</span></p>
+                <p class="domain-text">.net<span>&#36;9.90</span></p>
+                <p class="domain-text">.biz<span>8.95</span></p>
+                <p class="domain-text">.me<span>7.95</span></p>
+            </div>
+        </section>
+
+        <section class="services grid" id="services">
+            <div class="services-content">
+                <h5 class="title">Services</h5>
+                <h2 class="content-title content-ttitle-h">Why choose us</h2>
+                <ul>
+                    <li>
+                        <img src="images/guarant1.png" alt="1">
+                        <div class="bucket">
+                            <h3 class="content-title">100&#37; Uptime Guarantee</h3>
+                            <p class="grey-text">
+                                Even the all-powerfull Pointing has no control about the blind texts it is an almost
+                                unorthographic.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/safe5.png" alt="2">
+                        <div class="bucket">
+                            <h3 class="content-title">Safe and Secured</h3>
+                            <p class="grey-text">
+                                Even the all-powerfull Pointing has no control about the blind texts it is an almost
+                                unorthographic.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/support.png" alt="3">
+                        <div class="bucket">
+                            <h3 class="content-title">Our Dedicated Support</h3>
+                            <p class="grey-text">
+                                Even the all-powerfull Pointing has no control about the blind texts it is an almost
+                                unorthographic.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="price grid" id="price">
+            <div class="price-content">
+                <h5 class="title">Pricing Plans</h5>
+                <h2 class="content-title content-ttitle-h">Our Best Prising</h2>
+                <ul>
+                    <li>
+                        <div class="price-area">
+                            <p class="price-label">Free</p>
+                            <h3 class="price-number"><span id="price1">&#36;</span>0</h3>
+                            <p class="grey-text-light">100&#37; free. Forever</p>
+                            <button>Get Started</button>
+                            <p class="content-title">Enjoy All The Features</p>
+                            <p class="content-title">150GB <span class="grey-text-light">Brandwidth</span></p>
+                            <p class="content-title">100GB <span class="grey-text-light">Storage</span></p>
+                            <p class="content-title">&#36;1.00 / GB <span class="grey-text-light">Overages</span></p>
+                            <p class="grey-text-light">All features</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="price-area">
+                            <p class="price-label">Startup</p>
+                            <h3 class="price-number"><span>&#36;</span>19</h3>
+                            <p class="grey-text-light">All features are included</p>
+                            <button>Get Started</button>
+                            <p class="content-title">Enjoy All The Features</p>
+                            <p class="content-title">450GB <span class="grey-text-light">Brandwidth</span></p>
+                            <p class="content-title">400GB <span class="grey-text-light">Storage</span></p>
+                            <p class="content-title">&#36;2.00 / GB <span class="grey-text-light">Overages</span></p>
+                            <p class="grey-text-light">All features</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="price-area">
+                            <p class="price-label">Premium</p>
+                            <h3 class="price-number"><span>&#36;</span>49</h3>
+                            <p class="grey-text-light">All features are included</p>
+                            <button>Get Started</button>
+                            <p class="content-title">Enjoy All The Features</p>
+                            <p class="content-title">250GB <span class="grey-text-light">Brandwidth</span></p>
+                            <p class="content-title">200GB <span class="grey-text-light">Storage</span></p>
+                            <p class="content-title">&#36;5.00 / GB <span class="grey-text-light">Overages</span></p>
+                            <p class="grey-text-light">All features</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="price-area">
+                            <p class="price-label">Pro</p>
+                            <h3 class="price-number"><span>&#36;</span>99</h3>
+                            <p class="grey-text-light">All features are included</p>
+                            <button>Get Started</button>
+                            <p class="content-title">Enjoy All The Features</p>
+                            <p class="content-title">450GB <span class="grey-text-light">Brandwidth</span></p>
+                            <p class="content-title">400GB <span class="grey-text-light">Storage</span></p>
+                            <p class="content-title">&#36;20.00 / GB <span class="grey-text-light">Overages</span></p>
+                            <p class="grey-text-light">All features</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="facts grid" id="facts">
+            <div class="facts-content">
+                <div>
+                    <h2 class="content-title" id="facts">Some fun facts</h2>
+                    <h5 class="title" id="facts-one">More than 100,000 websites hosted</h5>
+                </div>
+                <div class="four-facts">
+                    <div class="four-facts-text">
+                        <p id="facts">2,000</p>
+                        <p id="facts-one">CMS Installation</p>
+                    </div>
+                    <div>
+                        <p id="facts">100</p>
+                        <p id="facts-one">Awards Won</p>
+                    </div>
+                    <div>
+                        <p id="facts">32,000</p>
+                        <p id="facts-one">Registered Domains</p>
+                    </div>
+                    <div>
+                        <p id="facts">31,998</p>
+                        <p id="facts-one">Sutisfied Customers</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="customers grid" id="cutomers">
+            <div class="customers-content">
+                <h5 class="title">Customer Says</h5>
+                <h2 class="content-title"> Our satisfied customer says</h2>
+                <p class="grey-text content-ttitle-h customer-h">Far far away,behind the world mountains,far from the
+                    countries Vokaila and Consonantia, thete live the blind texts.
+                    Separated they live in</p>
+                <ul>
+                    <li>
+                        <div class="customer-area">
+                            <img src="images/person_1.jpg" alt="person1">
+                            <div class="quotes">
+                                <i class="fa-solid fa-quote-left fa-sm"></i>
+                            </div>
+                            <p class="grey-text">Far far away,behind the world mountains,far from the countries Vokaila
+                                and
+                                Consonantia, thete live the blind texts.</p>
+                            <p class="content-title">Dennis Green</p>
+                            <p class="grey-text">System Analitics</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="customer-area">
+                            <img src="images/person_2.jpg" alt="person2">
+                            <div class="quotes">
+                                <i class="fa-solid fa-quote-left fa-sm"></i>
+                            </div>
+                            <p class="grey-text">Far far away,behind the world mountains,far from the countries Vokaila
+                                and
+                                Consonantia, thete live the blind texts.</p>
+                            <p class="content-title">Adam Green</p>
+                            <p class="grey-text">Marketing Manager</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="customer-area">
+                            <img src="images/person_4.jpg" alt="person3">
+                            <div class="quotes">
+                                <i class="fa-solid fa-quote-left fa-sm"></i>
+                            </div>
+                            <p class="grey-text">Far far away,behind the world mountains,far from the countries Vokaila
+                                and
+                                Consonantia, thete live the blind texts.</p>
+                            <p class="content-title">Bob Dilan</p>
+                            <p class="grey-text">Interface Designer</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="vps grid" id="vps">
+            <div class="vps-content">
+                <h5 class="title">Services</h5>
+                <h2 class="content-title content-ttitle-h">How it works</h2>
+                <div class="vps-area">
+                    <div class="vps-buttons">
+                        <button>Next gen VPS</button>
+                        <button>Performance</button>
+                        <button>Effectiveness</button>
+                    </div>
+                    <div class="vps-hosting">
+                        <div class="vps-left">
+                            <img src="images/dashboard_full_1.jpg" alt="dashboard">
+                        </div>
+                        <div class="vps-right">
+                            <h2 class="content-title">Next gen VPS hosting</h2>
+                            <p class="grey-text">Far far away,behind the world mountains,far from the countries Vokaila
+                                and Consonantia, thete live the blind texts.Separated they live in Bookmarkgrove right
+                                at the coast of the Semantics, a large language ocean.</p>
+                            <p class="grey-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore tempora
+                                minus fugit iure maiores sequi!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter grid" id="newsletter">
+            <div class="newsletter-content">
+                <h2 class="content-title" id="facts">Subcribe to our Newsletter</h2>
+                <p>Far far away,behind the world mountains,far from the
+                    countries Vokaila and <br> Consonantia, thete live the blind texts.Separated they live in</p>
+                <form action="#">
+                    <input class="active-input" type="email" name="email" id="email_button"
+                        placeholder="Enter email address">
+                    <button type="submit"><i class="fa-solid fa-paper-plane" style="color:white;"></i></button>
+                </form>
+            </div>
+        </section>
+
+        <section class="blog grid" id="blog">
+            <div class="blog-content">
+                <h5 class="title">Blog</h5>
+                <h2 class="content-title">Recent Blog</h2>
+                <p class="grey-text content-ttitle-h customer-h">Far far away,behind the world mountains,far from the
+                    countries Vokaila and
+                    Consonantia, thete live the blind texts.Separated they live in</p>
+                <ul>
+                    <li>
+                        <div class="blog-area">
+                            <img src="images/image_1.jpg" alt="img1">
+                            <p class="grey-text">August 12,2018 Admin
+                                <i class="fa-solid fa-message fa-2xs" style="color: #b2bbc0;"></i> 3
+                            </p>
+                            <p class="content-title">Even the all-powerfull Pointing has no control about the blind
+                                texts</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="blog-area">
+                            <img src="images/image_2_2.jpg" alt="img2">
+                            <p class="grey-text">September 23,2018 Admin
+                                <i class="fa-solid fa-message fa-2xs" style="color: #b2bbc0;"></i> 3
+                            </p>
+                            <p class="content-title">Even the all-powerfull Pointing has no control about the blind
+                                texts</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="blog-area">
+                            <img src="images/image_3_3.jpg" alt="img3">
+                            <p class="grey-text">October 15,2018 Admin
+                                <i class="fa-solid fa-message fa-2xs" style="color: #b2bbc0;"></i> 3
+                            </p>
+                            <p class="content-title">Even the all-powerfull Pointing has no control about the blind
+                                texts</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="footer">
+        <div class="footer-content grid">
+            <div class="footer-content-one">
+                <div class="footer-blok">
+                    <h5 class="content-title footer-title">Raptor.</h5>
+                    <p>Far far away,behind the world mountains,far from the
+                        countries Vokaila and Consonantia, thete live the blind texts.</p>
+                    <button>Get in touch</button>
+                </div>
+                <div class="footer-blok">
+                    <h5 class="content-title footer-title">Unseful Links</h5>
+                    <p>Servers</p>
+                    <p>Windows Hosting</p>
+                    <p>Cloud Hosting</p>
+                    <p>Os Dervers</p>
+                    <p>Linux Servers</p>
+                    <p>Policy</p>
+                </div>
+                <div class="footer-blok">
+                    <h5 class="content-title footer-title">Navigational</h5>
+                    <div class="footer-links">
+                        <a href="#header">Home</a>
+                        <a href="#domain">Domain</a>
+                        <a href="#vps">Hosting</a>
+                        <a href="#facts">About</a>
+                        <a href="#blog">Blog</a>
+                        <a href="#footer">Contact</a>
+                    </div>
+                </div>
+                <div class="footer-blok">
+                    <div class="footer-info">
+                        <p class="footer-info-p">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span class="footer-info-text">203 Fake St.Mountain View. San francisco, California,
+                                USA</span>
+                        </p>
+                        <p class="footer-info-p">
+                            <i class="fa-solid fa-phone"></i>
+                            <span class="footer-info-text">+2 392 3929 210</span>
+                        </p>
+                        <p class="footer-info-p">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span class="footer-info-text footer-info-text-dotted">info&#64;yourdomain.com</span>
+                        </p>
+                        <p class="footer-info-p">
+                            <i class="fa-regular fa-clock"></i>
+                            <span class="footer-info-text">Saturday &#8212; Sunday 8:00am &#8210; 5:00pm</span>
+                        </p>
+                    </div>
+                    <div class="footer-icons">
+                        <div class="footer-icons-visible">
+                            <a href="https://x.com/i/flow/login" target="_blank">
+                                <i class="fa-brands fa-twitter fa-lg"></i>
+                            </a>
+                        </div>
+                        <div class="footer-icons-visible">
+                            <a href="https://en-gb.facebook.com/login/?next=https%3A%2F%2Fen-gb.facebook.com%2F"
+                                target="_blank">
+                                <i class="fa-brands fa-facebook-f fa-lg"></i>
+                            </a>
+                        </div>
+                        <div class="footer-icons-visible">
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <i class="fa-brands fa-instagram fa-lg"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-block-last">
+                <p>Coopyright &#169;2020 All rights reserved | This template is made with &#129293; by Deribo</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
